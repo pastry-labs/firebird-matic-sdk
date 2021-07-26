@@ -56,9 +56,9 @@ export function currencyEquals(currencyA: Currency, currencyB: Currency): boolea
   }
 }
 
-export const WETH = {
-  [ChainId.MAINNET]: new Token(
-    ChainId.MAINNET,
+export const WMATIC = {
+  [ChainId.MATIC]: new Token(
+    ChainId.MATIC,
     '0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270',
     18,
     'WMATIC',
@@ -70,5 +70,42 @@ export const WETH = {
     18,
     'WMATIC',
     'Wrapped MATIC'
+  )
+}
+
+export const WETH = {
+  [ChainId.MATIC]: new Token(
+      ChainId.MATIC,
+      '0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619',
+      18,
+      'WETH',
+      'Wrapped ETH'
+  ),
+}
+
+export const BNB = {
+  [ChainId.BSC]: new Token(
+      ChainId.BSC,
+      '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
+      18,
+      'WBNB',
+      'Wrapped BNB'
+  ),
+}
+
+export const HOPE = {
+  [ChainId.MATIC]: new Token(
+      ChainId.MATIC,
+      '0xd78c475133731cd54dadcb430f7aae4f03c1e660',
+      18,
+      'HOPE',
+      'Firebird HOPE'
+  ),
+  [ChainId.BSC]: new Token(
+      ChainId.MATIC,
+      '0xd78C475133731CD54daDCb430F7aAE4F03C1E660',
+      18,
+      'HOPE-P',
+      'Firebird HOPE-P'
   )
 }

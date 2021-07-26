@@ -1,8 +1,8 @@
 {
-  "name": "spookyswap-sdk",
+  "name": "firebird-finance-sdk",
   "license": "MIT",
-  "version": "1.0.0",
-  "description": "🛠 An SDK for building applications on top of spookyswap.",
+  "version": "1.0.1",
+  "description": "🛠 An (unofficial) SDK for building applications on top of Firebird Finance.",
   "main": "dist/index.js",
   "module": "dist/sdk.esm.js",
   "typings": "dist/index.d.ts",
@@ -10,11 +10,14 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/SpookySwap/SpookySwap-sdk.git",
+  "repository": "https://github.com/FunkyDefi/firebird-matic-sdk.git",
   "keywords": [
-    "spookyswap",
+    "firebird",
+    "firebird-finance",
+    "defi",
+    "dex",
     "ethereum",
-    "fantom"
+    "polygon"
   ],
   "scripts": {
     "lint": "tsdx lint src test",
